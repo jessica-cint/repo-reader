@@ -1,0 +1,27 @@
+{
+  "name": "repo-reader",
+  "version": "1.0.0",
+  "description": "GitHub organization repository analyzer and summarizer",
+  "main": "dist/index.js",  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "github",
+    "repository",
+    "analyzer",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^20.0.2",
+    "axios": "^1.6.2",
+    "commander": "^11.1.0",
+    "dotenv": "^16.3.1"
+  },  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "typescript": "^5.8.3"
+  }
+}
